@@ -1,3 +1,5 @@
+package HouseCostCalculator;
+
 import java.util.Scanner;
 
 public class HouseConstructionCost {

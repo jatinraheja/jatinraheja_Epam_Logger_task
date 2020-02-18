@@ -1,3 +1,5 @@
+package HouseCostCalculator;
+
 public class CostCalculator {
     private String materialstandard;
     private String automated;
