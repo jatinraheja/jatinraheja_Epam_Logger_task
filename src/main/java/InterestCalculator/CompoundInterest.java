@@ -1,16 +1,12 @@
 package InterestCalculator;
 
-public class CompoundInterest {
-    double time;
-    double principal;
-    double rate;
-    CompoundInterest(double principal,double rate,double time)
+public class CompoundInterest extends Interest{
+
+    protected   CompoundInterest(double principal,float time,float rate)
     {
-        this.time = time;
-        this.principal = principal;
-        this.rate = rate;
+        super(principal,time,rate);
     }
-    public double interest()
+    protected double interestCalculate()
     {
         double ci = principal*(Math.pow(1+rate/100,time));
         return ci;
