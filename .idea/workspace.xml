@@ -2,18 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a4fe1b0-fdee-4e77-bd0f-e9d28863b541" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/InterestCalculator/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/InterestCalculator/Interest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/logs/logdata.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j2.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/HouseCostCalculator/CostCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HouseCostCalculator/CostCalculator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/HouseCostCalculator/HouseConstructionCost.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HouseCostCalculator/HouseConstructionCost.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/InterestCalculator/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/InterestCalculator/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/InterestCalculator/CompoundInterest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/InterestCalculator/CompoundInterest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/InterestCalculator/InterestCalculator.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/InterestCalculator/SimpleInterest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/InterestCalculator/SimpleInterest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/CostCalculator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/HouseConstructionCost.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/HouseCostCalculator/CostCalculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/HouseCostCalculator/CostCalculator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/HouseCostCalculator/HouseConstructionCost.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/HouseCostCalculator/HouseConstructionCost.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/InterestCalculator/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/InterestCalculator/App.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/InterestCalculator/CompoundInterest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/InterestCalculator/CompoundInterest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/InterestCalculator/InterestCalculator.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/InterestCalculator/SimpleInterest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/InterestCalculator/SimpleInterest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -41,6 +43,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -55,10 +58,24 @@
     </option>
   </component>
   <component name="ProjectId" id="1XvGjm3czVnDpijyMDAqlTJfwBZ" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="LogHighlighting" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\hp\Downloads\Calculator-App-in-Spring-Boot-master\JatinRaheja_Epam_task4\src\main\java" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -86,15 +103,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HouseConstructionCost" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HouseCostCalculator.HouseConstructionCost" />
-      <module name="JatinRaheja_Epam_task4" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="InterestCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InterestCalculator.InterestCalculator" />
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InterestCalculator.App" />
       <module name="JatinRaheja_Epam_task4" />
       <extension name="coverage">
         <pattern>
@@ -106,11 +116,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="HouseConstructionCost" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HouseCostCalculator.HouseConstructionCost" />
+      <module name="JatinRaheja_Epam_task4" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.App" />
         <item itemvalue="Application.HouseConstructionCost" />
-        <item itemvalue="Application.InterestCalculator" />
+        <item itemvalue="Application.App" />
       </list>
     </recent_temporary>
   </component>
@@ -128,7 +145,15 @@
       <workItem from="1582003821383" duration="6862000" />
       <workItem from="1582203951073" duration="2463000" />
       <workItem from="1582453194345" duration="6905000" />
-      <workItem from="1582554352243" duration="2913000" />
+      <workItem from="1582554352243" duration="3614000" />
+      <workItem from="1582622177207" duration="4903000" />
+      <workItem from="1582628020316" duration="781000" />
+      <workItem from="1582629627967" duration="3293000" />
+      <workItem from="1582638381484" duration="1502000" />
+      <workItem from="1582707727949" duration="162000" />
+      <workItem from="1582726551797" duration="1490000" />
+      <workItem from="1582728099542" duration="30000" />
+      <workItem from="1582728154347" duration="4274000" />
     </task>
     <servers />
   </component>
@@ -147,5 +172,8 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
